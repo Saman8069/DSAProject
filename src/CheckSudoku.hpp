@@ -15,8 +15,8 @@ private:
 public:
     checkSudoku(){}
      
-    bool check(const vector<vector<int>>& sudoku,int n);
-    bool isComplete(const vector<vector<int>>& sudoku);
+    bool check(vector<vector<int>> s, int girdsize);
+    bool isComplete(vector<vector<int>> s, int gridsize);
     
     ~checkSudoku(){}
 };

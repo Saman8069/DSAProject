@@ -18,13 +18,13 @@ class giveSudoku{
    vector<vector<int>> sudoku;
  public:
     giveSudoku(){
-        cout<<"Enter the size of Sudoku"<<endl;
+        cout<<"Enter the gridsize of Sudoku"<<endl;
         cin>>n;
         sudoku.resize(n, vector<int>(n));
     }
 
-    void assignValues(vector<vector<int>>& sudoku,int n);
-    void display(const vector<vector<int>>& sudoku);
+    vector<vector<int>> assignValues();
+    void display(vector<vector<int>> s);
     
     friend class solveSudoku;
     

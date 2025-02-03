@@ -10,12 +10,13 @@ int main(){
   giveSudoku gs;
   checkSudoku cs;
   solveSudoku ss(gs);
-  if(!cs.check())
+  vector<vector<int>> sudoku;
+  sudoku = gs.assignValues();
+  if(!cs.check(sudoku,sudoku.size()))
     cout<<"The given sudoku has contradicitng attributes."<<endl;
  else{ // vector<vector<int>> sudoku;
-  gs.assignValues();
   // sudoku = ss.solve();
-  gs.display(ss.solve());
+  gs.display(sudoku);
  }
   return 0;
 }

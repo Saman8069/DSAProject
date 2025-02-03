@@ -8,7 +8,7 @@ using namespace std;
 vector<vector<int>> solveSudoku::solve(vector<vector<int>> solvableSudoku,int n){
   int i=0;
   checkSudoku csobj;
-  if(csobj.check(solvableSudoku, n)&&csobj.isComplete(solvableSudoku))
+  if(csobj.check(solvableSudoku, n)&&csobj.isComplete(solvableSudoku, n))
     return solvableSudoku;
   else{
     for(const auto& row: solvableSudoku){
