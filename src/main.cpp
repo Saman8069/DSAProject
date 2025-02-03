@@ -14,9 +14,12 @@ int main(){
   sudoku = gs.assignValues();
   if(!cs.check(sudoku,sudoku.size()))
     cout<<"The given sudoku has contradicitng attributes."<<endl;
- else{ // vector<vector<int>> sudoku;
-  sudoku = ss.solve(sudoku,sudoku.size());
-  gs.display(sudoku);
- }
-  return 0;
+  else{ 
+    sudoku = ss.solve(sudoku,sudoku.size());
+    gs.display(sudoku);
+   }
+   system("pause");
+ cout<<"Press a key to close";
+ cin.get();
+ return 0;
 }

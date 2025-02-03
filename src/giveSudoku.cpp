@@ -14,15 +14,21 @@ void giveSudoku::display(vector<vector<int>> sudoku){
 }
 
 vector<vector<int>> giveSudoku::assignValues(){
- int gv,a,b;
- vector<vector<int>> sudoku(n,vector<int>(n,0));
- cout<<"Enter the number of given value"<<endl;
- cin>>gv;
+ int gv=0,a,b;
+ 
+ do{
+
+  cout<<"Enter the number of given value"<<endl;
+  cin>>gv;
+  if(gv>(n*n)) cout<<"Error! The number of given number of value exceeds the no of boxes."<<endl;
+
+ } while (gv>(n*n));
+ 
  for(int i=0; i<gv; i++){
    cout<<"Enter the position where value is to be inserted"<<endl;
    cin>>a>>b;
-   cout<<"Enter the value at "<<a<<b<<endl;
-   cin>>sudoku[a][b];
+   cout<<"Enter the value at "<<a<<" "<<b<<endl;
+   cin>>sudoku[a-1][b-1];
  }
  return sudoku;
 }

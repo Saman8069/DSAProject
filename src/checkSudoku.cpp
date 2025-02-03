@@ -18,6 +18,7 @@ bool checkSudoku::check(vector<vector<int>> s, int gridsize){
   for(int i=0;i<gridsize;i++){
     for(int j=0;j<gridsize;j++){
       num = sudoku[i][j];
+      if(num==0) continue;
       if(num<0||num>9)
        return false;
       grid = (i/subgrid)*subgrid+(j/subgrid);

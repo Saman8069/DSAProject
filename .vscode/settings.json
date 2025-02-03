@@ -2,7 +2,8 @@
   "files.associations": {
     "iterator": "cpp",
     "iostream": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "xhash": "cpp"
   },
   "liveServer.settings.port": 5501
 }
