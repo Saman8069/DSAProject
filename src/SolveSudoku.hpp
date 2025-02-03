@@ -11,6 +11,7 @@ using namespace std;
 class solveSudoku{
 private:
  int n; 
+
  vector<vector<int>> solvableSudoku;
 public:
     solveSudoku(giveSudoku& obj){

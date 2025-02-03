@@ -15,7 +15,7 @@ int main(){
   if(!cs.check(sudoku,sudoku.size()))
     cout<<"The given sudoku has contradicitng attributes."<<endl;
  else{ // vector<vector<int>> sudoku;
-  // sudoku = ss.solve();
+  sudoku = ss.solve(sudoku,sudoku.size());
   gs.display(sudoku);
  }
   return 0;

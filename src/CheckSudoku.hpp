@@ -10,8 +10,6 @@ class solveSudoku;
 
 class checkSudoku
 {
-private:
-    /* data */
 public:
     checkSudoku(){}
      

@@ -9,6 +9,7 @@ void giveSudoku::display(vector<vector<int>> sudoku){
     for(int elements: row){
       cout<<elements<< " "; 
     }
+    cout<<endl;
   }
 }
 
@@ -24,6 +25,5 @@ vector<vector<int>> giveSudoku::assignValues(){
    cin>>sudoku[a][b];
  }
  return sudoku;
- 
 }
    
