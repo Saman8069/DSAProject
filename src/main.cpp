@@ -18,7 +18,6 @@ int main(){
     sudoku = ss.solve(sudoku,sudoku.size());
     gs.display(sudoku);
    }
-   system("pause");
  cout<<"Press a key to close";
  cin.get();
  return 0;
