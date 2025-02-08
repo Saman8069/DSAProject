@@ -20,7 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5a851c-25b5-4ca4-a738-83aa9bb66b64" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SudukoSolver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SudukoSolver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/CopilotIndices/17.13.412.44928/CodeChunks.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SudukoSolver/CopilotIndices/17.13.412.44928/CodeChunks.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/CopilotIndices/17.13.412.44928/SemanticSymbols.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SudukoSolver/CopilotIndices/17.13.412.44928/SemanticSymbols.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/FileContentIndex/dd5fa1b7-3918-471e-932c-f8763b5d9401.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SudukoSolver/v17/.wsuo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SudukoSolver/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/v17/Preview/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SudukoSolver/v17/Preview/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/v17/Preview/ipch/AutoPCH/25588463e116f05/CHECKSUDOKU.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SudukoSolver/v17/Preview/ipch/AutoPCH/25588463e116f05/CHECKSUDOKU.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SudukoSolver/v17/Preview/ipch/AutoPCH/cb87d5f2ede16d27/MAIN.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SudukoSolver/v17/Preview/ipch/AutoPCH/cb87d5f2ede16d27/MAIN.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/trial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GiveSudoku.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GiveSudoku.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RaylibUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/RaylibUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RaylibUI.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/RaylibUI.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +52,8 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -68,6 +90,14 @@
     ]
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <option name="toolchainName" value="MinGW" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,6 +110,9 @@
       <workItem from="1738246888049" duration="3225000" />
       <workItem from="1738337607665" duration="432000" />
       <workItem from="1738511330968" duration="66000" />
+      <workItem from="1738598824849" duration="680000" />
+      <workItem from="1738985838375" duration="3134000" />
+      <workItem from="1739019015884" duration="3990000" />
     </task>
     <servers />
   </component>

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\SudukoSolver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SudukoSolver\\src\\checkSudoku.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\checkSudoku.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SudukoSolver\\src\\CheckSudoku.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\CheckSudoku.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SudukoSolver\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SudukoSolver\\src\\RaylibUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RaylibUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SudukoSolver\\src\\RaylibUI.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RaylibUI.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "checkSudoku.cpp",
-              "DocumentMoniker": "D:\\SudukoSolver\\src\\checkSudoku.cpp",
-              "RelativeDocumentMoniker": "src\\checkSudoku.cpp",
-              "ToolTip": "D:\\SudukoSolver\\src\\checkSudoku.cpp",
-              "RelativeToolTip": "src\\checkSudoku.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T00:27:11.116Z",
+              "Title": "CheckSudoku.hpp",
+              "DocumentMoniker": "D:\\SudukoSolver\\src\\CheckSudoku.hpp",
+              "RelativeDocumentMoniker": "src\\CheckSudoku.hpp",
+              "ToolTip": "D:\\SudukoSolver\\src\\CheckSudoku.hpp",
+              "RelativeToolTip": "src\\CheckSudoku.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-08T01:40:21.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RaylibUI.hpp",
+              "DocumentMoniker": "D:\\SudukoSolver\\src\\RaylibUI.hpp",
+              "RelativeDocumentMoniker": "src\\RaylibUI.hpp",
+              "ToolTip": "D:\\SudukoSolver\\src\\RaylibUI.hpp",
+              "RelativeToolTip": "src\\RaylibUI.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-08T01:30:34.615Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\SudukoSolver\\src\\main.cpp",
-              "RelativeDocumentMoniker": "src\\main.cpp",
-              "ToolTip": "D:\\SudukoSolver\\src\\main.cpp",
-              "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Title": "RaylibUI.cpp",
+              "DocumentMoniker": "D:\\SudukoSolver\\src\\RaylibUI.cpp",
+              "RelativeDocumentMoniker": "src\\RaylibUI.cpp",
+              "ToolTip": "D:\\SudukoSolver\\src\\RaylibUI.cpp",
+              "RelativeToolTip": "src\\RaylibUI.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-02T00:24:41.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T16:45:32.913Z"
             }
           ]
         }

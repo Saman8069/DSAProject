@@ -19,7 +19,7 @@ bool checkSudoku::check(vector<vector<int>> s, int gridsize){
     for(int j=0;j<gridsize;j++){
       num = sudoku[i][j];
       if(num==0) continue;
-      if(num<0||num>9)
+      if(num<0||num>gridsize)
        return false;
       grid = (i/subgrid)*subgrid+(j/subgrid);
       if(!rowSet[i].insert(num).second || !clmSet[j].insert(num).second || !gridSet[grid].insert(num).second )

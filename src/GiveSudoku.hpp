@@ -10,6 +10,7 @@
 
 using namespace std;
 
+class RaylibUI;
 class solveSudoku;
 
 class giveSudoku{
@@ -21,12 +22,13 @@ class giveSudoku{
         cout<<"Enter the gridsize of Sudoku"<<endl;
         cin>>n;
         sudoku.resize(n, vector<int>(n,0));
-    }
-
-    vector<vector<int>> assignValues();
-    void display(vector<vector<int>>& s);
-    
-    friend class solveSudoku;
+      }
+      
+      vector<vector<int>> assignValues();
+      void display(vector<vector<int>>& s);
+      
+      friend class RaylibUI;
+      friend class solveSudoku;
     
     ~giveSudoku(){}
 };
