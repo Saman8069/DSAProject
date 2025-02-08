@@ -30,10 +30,9 @@ bool checkSudoku::check(vector<vector<int>> s, int gridsize){
 }
 
 bool checkSudoku::isComplete(vector<vector<int>> s, int size){
-  int sn = sqrt(size);
   for(const auto& row: s){
     for(int elements: row){
-      if(elements<1||elements>9) return false;
+      if(elements<1||elements>size) return false;
     }
   }
   return true;

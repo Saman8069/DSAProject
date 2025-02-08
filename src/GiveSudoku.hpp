@@ -20,11 +20,11 @@ class giveSudoku{
     giveSudoku(){
         cout<<"Enter the gridsize of Sudoku"<<endl;
         cin>>n;
-        sudoku.resize(n, vector<int>(n));
+        sudoku.resize(n, vector<int>(n,0));
     }
 
     vector<vector<int>> assignValues();
-    void display(vector<vector<int>> s);
+    void display(vector<vector<int>>& s);
     
     friend class solveSudoku;
     

@@ -5,34 +5,25 @@
 
 using namespace std;
 
-vector<vector<int>> solveSudoku::solve(vector<vector<int>> solvableSudoku,int n){
-  int i=0;
-  int num=0;
-  checkSudoku csobj;
-  if(csobj.check(solvableSudoku, n)&&csobj.isComplete(solvableSudoku, n))
-    return solvableSudoku;
-  else{
-    for(int row=0;row<n;row++){
-      for(int col=0;col<n;col++){
-        num = solvableSudoku[row][col];
-        while (num != 0)
-        {
-          solvableSudoku[row][col]=i;
-          if(csobj.check(solvableSudoku, n))
-            if(csobj.isComplete(solvableSudoku,n)) return solvableSudoku;
-            else{
-              num=1;
-              i=0;
-              continue;
+ vector<vector<int>> solveSudoku::solve(vector<vector<int>>& solvableSudoku, int row = 0, int col = 0) {
+        checkSudoku csobj;
+        int size = solvableSudoku.size();
+
+        if (row == size) return solvableSudoku;  
+
+        if (col == size) return solveSudoku::solve(solvableSudoku, row + 1, 0); 
+
+        if (solvableSudoku[row][col] != 0) return solveSudoku::solve(solvableSudoku, row, col + 1); 
+        for (int num = 1; num <= size; num++) {
+            solvableSudoku[row][col] = num;
+            if (csobj.check(solvableSudoku, size)) {  
+                vector<vector<int>> result = solveSudoku::solve(solvableSudoku, row, col + 1);
+                if (!result.empty() && csobj.isComplete(result, size)) return result; 
             }
-          else
-          {
-            num=0;
-            i=i+1;
-          }
-           
+            solvableSudoku[row][col] = 0;  
         }
-      }
+
+        return {}; 
     }
-  }
-}    
+    
+

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void giveSudoku::display(vector<vector<int>> sudoku){
+void giveSudoku::display(vector<vector<int>>& sudoku){
   for(const auto& row: sudoku){
     for(int elements: row){
       cout<<elements<< " "; 

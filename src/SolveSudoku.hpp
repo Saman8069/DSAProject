@@ -10,7 +10,7 @@ using namespace std;
 
 class solveSudoku{
 private:
- int n; 
+ int n,i,j; 
 
  vector<vector<int>> solvableSudoku;
 public:
@@ -18,10 +18,11 @@ public:
         n=obj.sudoku.size();
         solvableSudoku.resize(n,vector<int>(n,0));
         solvableSudoku = obj.sudoku;
+        i=n;
+        j=n;
     }
 
-    vector<vector<int>> solve(vector<vector<int>> solvableSudoku,int n);
-    
+    vector<vector<int>> solve(vector<vector<int>>& solvableSudoku,int i,int j);    
     ~solveSudoku(){}
 
 };
