@@ -13,7 +13,7 @@ class checkSudoku
 public:
     checkSudoku(){}
      
-    bool check(vector<vector<int>> s, int girdsize);
+    bool check(vector<vector<int>> s, int gridsize);
     bool isComplete(vector<vector<int>> s, int gridsize);
     
     ~checkSudoku(){}
