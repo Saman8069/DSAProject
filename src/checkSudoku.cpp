@@ -23,7 +23,8 @@ bool checkSudoku::check(vector<vector<int>> s, int gridsize){
        return false;
       grid = (i/subgrid)*subgrid+(j/subgrid);
       if(!rowSet[i].insert(num).second || !clmSet[j].insert(num).second || !gridSet[grid].insert(num).second )
-        return false;
+      return false;
+      //uses set to insets the value of given index to the row, column and current grid using .insert() and if that value already exists returns false using .second
     }    
   }
   return true;
@@ -32,7 +33,7 @@ bool checkSudoku::check(vector<vector<int>> s, int gridsize){
 bool checkSudoku::isComplete(vector<vector<int>> s, int size){
   for(const auto& row: s){
     for(int elements: row){
-      if(elements<1||elements>size) return false;
+      if(elements<1||elements>size) return false; //displays elements
     }
   }
   return true;

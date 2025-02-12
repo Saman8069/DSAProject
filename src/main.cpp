@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-// #include "raylib.hpp"
 #include "checkSudoku.hpp"
 #include "giveSudoku.hpp"
 #include "solveSudoku.hpp"
@@ -20,8 +19,8 @@ int main(){
       sudoku=ss.solve(sudoku,0,0);
       gs.display(sudoku);
    }
-   
- cout<<"Press a key to close";
- cin.get();
+  system("pause"); 
+//  cout<<"Press a key to close";
+//  cin.get();
  return 0;
 }

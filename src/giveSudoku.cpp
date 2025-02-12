@@ -28,7 +28,9 @@ vector<vector<int>> giveSudoku::assignValues(){
    cout<<"Enter the position where value is to be inserted"<<endl;
    cin>>a>>b;
    cout<<"Enter the value at "<<a<<" "<<b<<endl;
-   cin>>sudoku[a-1][b-1];
+   cin>>sudoku[a-1][b-1]; //puts the value given by user , -1 is done to maintain index
+   display(sudoku); // displays sudoku after each insertion
+   cout<<endl;
  }
  return sudoku;
 }
